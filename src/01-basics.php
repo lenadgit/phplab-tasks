@@ -27,10 +27,8 @@ function getMinuteQuarter(int $minute) {
  */
 function isLeapYear(int $year) {
 	if( $year % 4 == 0 )
-        # Год високосный
        echo 'year is Leap';
     else
-        # Год не високосный
        echo 'year is not Leap';
 }
 echo isleap(1995);
