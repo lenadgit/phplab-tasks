@@ -10,8 +10,8 @@
  * @return string
  * @throws InvalidArgumentException
  */
-function getMinuteQuarter(int $minute)
-{
+function getMinuteQuarter(int $minute) {
+	// Do not understand a task^ why the script should fall? What condition should check this script? could you please clarify?
 }
 
 /**
@@ -25,9 +25,15 @@ function getMinuteQuarter(int $minute)
  * @return boolean
  * @throws InvalidArgumentException
  */
-function isLeapYear(int $year)
-{
+function isLeapYear(int $year) {
+	if( $year % 4 == 0 )
+        # Год високосный
+       echo 'year is Leap';
+    else
+        # Год не високосный
+       echo 'year is not Leap';
 }
+echo isleap(1995);
 
 /**
  * The $input variable contains a string of six digits (like '123456' or '385934').
@@ -40,6 +46,19 @@ function isLeapYear(int $year)
  * @return boolean
  * @throws InvalidArgumentException
  */
-function isSumEqual(string $input)
-{
+function isSumEqual(string $input) {
+	$var = "342611";
+	$sum_first = function ({
+	    for (int i = 0; i <= 3; i++) {
+        echo $var;
+    }
+})
+	$sum_second = function ({
+	    for (int i = 3; i <= 6; i++) {
+        echo $var;
+    }
+})
+	if($sum_first > $sum_second) {
+		return true;
+	} else false;
 }

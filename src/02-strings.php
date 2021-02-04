@@ -7,8 +7,8 @@
  * @param  string  $input
  * @return string
  */
-function snakeCaseToCamelCase(string $input)
-{
+function snakeCaseToCamelCase(string $input) {
+	$input = ucfirst(string);
 }
 
 /**
@@ -19,10 +19,10 @@ function snakeCaseToCamelCase(string $input)
  * @param  string  $input
  * @return string
  */
-function mirrorMultibyteString(string $input)
-{
+function mirrorMultibyteString(string $input) {
+	$input = strrev(string);
 }
-
+()
 /**
  * My friend wants a new band name for her band.
  * She likes bands that use the formula: 'The' + a noun with first letter capitalized.
@@ -37,6 +37,11 @@ function mirrorMultibyteString(string $input)
  * @param  string  $noun
  * @return string
  */
-function getBrandName(string $noun)
-{
+function getBrandName() {
+	$noun = ["alaska"];
+    $noun_2 = array_slice($noun, 1);
+		for($i = 0; $i < 2; $i++) {
+    		echo $noun_2[$i];
+    	}
 }
+getBrandName();
